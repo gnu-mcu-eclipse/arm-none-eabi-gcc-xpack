@@ -66,7 +66,7 @@ The module currently does not include any documentation metadata
 * open [releases](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases) and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `7.2.0-1.2` (without `v`)
+* commit all changes, use a message like `package.json: 7.2.0-1.2` (without `v`)
 * `npm version 7.2.0-1.2`
 * push all changes to GitHub
 * `npm publish`
