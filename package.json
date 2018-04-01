@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/arm-none-eabi-gcc",
-  "version": "0.0.1",
+  "version": "6.3.1-1.1",
   "description": "An xPack which installs the binary files for GNU MCU Eclipse ARM GCC.",
   "main": "",
   "scripts": {
@@ -29,8 +29,7 @@
   "homepage": "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack",
   "config": {},
   "dependencies": {},
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {},
   "bundledDependencies": [],
   "optionalDependencies": {},
