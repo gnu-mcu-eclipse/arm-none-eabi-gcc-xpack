@@ -1,0 +1,42 @@
+{
+  "name": "@gnu-mcu-eclipse/arm-none-eabi-gcc",
+  "version": "0.0.1",
+  "description": "An xPack which installs the binary files for GNU MCU Eclipse ARM GCC.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.git"
+  },
+  "keywords": [
+    "xpack",
+    "gcc",
+    "arm",
+    "toolchain",
+    "embedded"
+  ],
+  "author": {
+    "name": "Liviu Ionescu",
+    "email": "ilg@livius.net",
+    "url": "http://liviusdotnet.wordpress.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack/issues"
+  },
+  "homepage": "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack",
+  "config": {},
+  "dependencies": {},
+  "devDependencies": {
+  },
+  "peerDependencies": {},
+  "bundledDependencies": [],
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">7.7.0"
+  },
+  "xpack": {
+  }
+}
