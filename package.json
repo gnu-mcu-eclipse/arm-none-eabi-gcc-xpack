@@ -43,16 +43,16 @@
       "skip": 3,
       "platforms": {
         "linux-x86": {
-          "sha256": "2f94b75db7510a254e596a9d3d92d517e18021e587b5d08014f7fdd475275c24",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-centos32.tar.bz2"
+          "sha256": "f4262eb3bd6c9b67894384ea6a3778a7d606be5d5d1f3c635c3ffe57c60fbda5",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-centos32.tgz"
         },
         "linux-x64": {
-          "sha256": "7c137c311832e17faae5b281114a0525ef0adb449a3744446a7dfe83e22dd9a4",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-centos64.tar.bz2"
+          "sha256": "b7f08ebedec5a2da9ba59a8a6eadf65217e9998478a35ebe634713d4236bf972",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-centos64.tgz"
         },
         "darwin-x64": {
-          "sha256": "2fbf053b5f2cb4764d8c2db5b5613bf79008de2a6f85cf889af07e0e0b3abbf3",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-osx.tar.bz2"
+          "sha256": "80ad64fa60915b591ff02c58522c0ff9d64a2abf1ab3e3850ed9556a653c4686",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-6.3.1-1.1-20180331-0618-osx.tgz"
         },
         "win32-x86": {
           "sha256": "ad23df4fde3cc0153e910e459e5fada5b9b1d4a73d9651b96e21d0be73f8a7e6",
