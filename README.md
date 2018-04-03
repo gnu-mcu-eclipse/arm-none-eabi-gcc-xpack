@@ -1,6 +1,4 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
-[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.svg)](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack/blob/xpack/LICENSE) 
-
 
 ## GNU MCU Eclipse ARM Embedded GCC binaries
 
