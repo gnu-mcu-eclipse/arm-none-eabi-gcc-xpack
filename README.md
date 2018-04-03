@@ -10,7 +10,7 @@ The source files of the xPack project are publicly available from
 
 ## Prerequisites
 
-A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
+On all platforms, all is needed is a recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
 [Node.js](https://nodejs.org) command line application.
 
 ## Easy install
