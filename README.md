@@ -10,8 +10,9 @@ The source files of the xPack project are publicly available from
 
 ## Prerequisites
 
-On all platforms, all is needed is a recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
-[Node.js](https://nodejs.org) command line application.
+On all platforms, all is needed is a recent [`xpm`](https://www.npmjs.com/package/xpm), 
+which is a portable [Node.js](https://nodejs.org) command line application. To install 
+`xpm`, follow the instructions on the [`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ## Easy install
 
@@ -24,7 +25,8 @@ the latest version of the toolchain is quite easy:
 $ xpm install @gnu-mcu-eclipse/arm-none-eabi-gcc --global
 ```
 
-Global xPacks are installed in the user home folder, and do not require `sudo`.
+Global xPacks are always installed in the user home folder, even on GNU/Linux or 
+macOS, and do not require `sudo`.
 
 To remove the installed xPack, the command is similar:
 
@@ -36,7 +38,7 @@ $ xpm uninstall @gnu-mcu-eclipse/arm-none-eabi-gcc --global
 
 ## Developer info
 
-### xPack git repo
+### The xPack git repo
 
 The few xPack source files are available from GitHub:
 
@@ -71,5 +73,5 @@ The original content is released under the
 reserved to [Liviu Ionescu](https://github.com/ilg-ul).
 
 The binary distributions include several open-source components; the
-corresponding licenses are available in the `gnu-mcu-eclipse/licenses`
-folder.
+corresponding licenses are available in the `.content/gnu-mcu-eclipse/licenses`
+folder of the installed package.
