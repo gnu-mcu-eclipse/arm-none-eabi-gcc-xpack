@@ -2,10 +2,10 @@
 
 ## GNU MCU Eclipse ARM Embedded GCC binaries
 
-This xPack installs the platform specific binaries for the [GNU MCU Eclipse 
+This binary xPack installs the platform specific binaries for the [GNU MCU Eclipse 
 ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc) toolchain.
 
-The xPack project is open source and is publicly available from 
+The source files of the xPack project are publicly available from 
 [GitHub](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack).
 
 ## Prerequisites
