@@ -1,6 +1,6 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) [![npm](https://img.shields.io/npm/dw/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/) [![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/)
 
-## The GNU MCU Eclipse ARM Embedded GCC xPack
+## The GNU MCU Eclipse ARM Embedded GCC binary xPack
 
 This binary xPack installs the platform specific binaries for the [GNU MCU Eclipse 
 ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc) toolchain.
