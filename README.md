@@ -18,7 +18,7 @@ A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable
 ## Easy install
 
 The xPack is available as 
-[`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/arm-none-eabi-gcc) 
+[`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
 from the public `npmjs.com` repository; with `xpm` available, installing 
 the latest version of the toolchain is quite easy:
 
