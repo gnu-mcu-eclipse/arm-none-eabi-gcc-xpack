@@ -2,8 +2,9 @@
 
 ## The GNU MCU Eclipse ARM Embedded GCC binary xPack
 
-This binary xPack installs the platform specific binaries for the [GNU MCU Eclipse 
-ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc) toolchain.
+This binary xPack installs the platform specific binaries for the
+[GNU MCU Eclipse ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc)
+toolchain.
 
 The source files of the xPack project are publicly available from 
 [GitHub](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack).
@@ -12,23 +13,28 @@ The source files of the xPack project are publicly available from
 
 ### Prerequisites
 
-On all platforms, all is needed is a recent [`xpm`](https://www.npmjs.com/package/xpm), 
-which is a portable [Node.js](https://nodejs.org) command line application. To install 
-`xpm`, follow the instructions on the [`xpm`](https://www.npmjs.com/package/xpm) page.
+On all platforms, all is needed is a recent 
+[`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
+[Node.js](https://nodejs.org) command line application. To install 
+`xpm`, follow the instructions on the 
+[`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ### Easy install
 
 The xPack is available as 
 [`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
 from the public `npmjs.com` repository; with `xpm` available, installing 
-the latest version of the toolchain is quite easy:
+the latest version of the package is quite easy:
 
 ```console
 $ xpm install @gnu-mcu-eclipse/arm-none-eabi-gcc --global
 ```
 
-Global xPacks are always installed in the user home folder, even on GNU/Linux or 
-macOS, and do not require `sudo`.
+Global xPacks are always installed in the user home folder, even on GNU/Linux  
+or macOS, and do not require `sudo`.
+
+The GNU MCU Eclipse plug-ins automatically identify binaries installed with
+`xpm` and provide a convenient method to manage paths.
 
 To remove the installed xPack, the command is similar:
 
@@ -50,8 +56,8 @@ $ git clone https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.git arm-n
 
 ### Toolchain binaries
 
-The binaries are not stored on the `npmjs.com` server, but are downloaded from the 
-[releases](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases) 
+The binaries are not stored on the `npmjs.com` server, but are downloaded from  
+the [releases](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases) 
 section of the `gnu-mcu-eclipse/arm-none-eabi-gcc` GitHub project.
 
 ## Maintainer info
