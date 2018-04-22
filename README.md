@@ -10,12 +10,14 @@ ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc) toolchai
 The xPack project is open source and is publicly available from 
 [GitHub](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack).
 
-## Prerequisites
+## How to use
+
+### Prerequisites
 
 A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
 [Node.js](https://nodejs.org) command line application.
 
-## Easy install
+### Easy install
 
 The xPack is available as 
 [`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/arm-none-eabi-gcc) 
@@ -51,6 +53,8 @@ $ git clone https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.git arm-n
 The binaries are not stored on the `npmjs.com` server, but are downloaded from the 
 [releases](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases) 
 section of the `gnu-mcu-eclipse/arm-none-eabi-gcc` GitHub project.
+
+## Maintainer info
 
 ### How to publish
 
