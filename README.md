@@ -1,26 +1,25 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
-[![license](https://img.shields.io/github/license/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.svg)](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack/blob/xpack/LICENSE) 
+[![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) [![npm](https://img.shields.io/npm/dw/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/) [![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/)
 
+## The GNU MCU Eclipse ARM Embedded GCC binary xPack
 
-## GNU MCU Eclipse ARM Embedded GCC binaries
-
-This xPack installs the platform specific binaries for the [GNU MCU Eclipse 
+This binary xPack installs the platform specific binaries for the [GNU MCU Eclipse 
 ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc) toolchain.
 
-The xPack project is open source and is publicly available from 
+The source files of the xPack project are publicly available from 
 [GitHub](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack).
 
 ## How to use
 
 ### Prerequisites
 
-A recent [`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
-[Node.js](https://nodejs.org) command line application.
+On all platforms, all is needed is a recent [`xpm`](https://www.npmjs.com/package/xpm), 
+which is a portable [Node.js](https://nodejs.org) command line application. To install 
+`xpm`, follow the instructions on the [`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ### Easy install
 
 The xPack is available as 
-[`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/gnu-mcu-eclipse/arm-none-eabi-gcc) 
+[`@gnu-mcu-eclipse/arm-none-eabi-gcc`](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
 from the public `npmjs.com` repository; with `xpm` available, installing 
 the latest version of the toolchain is quite easy:
 
@@ -28,7 +27,8 @@ the latest version of the toolchain is quite easy:
 $ xpm install @gnu-mcu-eclipse/arm-none-eabi-gcc --global
 ```
 
-Global xPacks are installed in the user home folder, and do not require `sudo`.
+Global xPacks are always installed in the user home folder, even on GNU/Linux or 
+macOS, and do not require `sudo`.
 
 To remove the installed xPack, the command is similar:
 
@@ -40,7 +40,7 @@ $ xpm uninstall @gnu-mcu-eclipse/arm-none-eabi-gcc --global
 
 ## Developer info
 
-### xPack git repo
+### The xPack git repo
 
 The few xPack source files are available from GitHub:
 
@@ -77,5 +77,5 @@ The original content is released under the
 reserved to [Liviu Ionescu](https://github.com/ilg-ul).
 
 The binary distributions include several open-source components; the
-corresponding licenses are available in the `gnu-mcu-eclipse/licenses`
-folder.
+corresponding licenses are available in the `.content/gnu-mcu-eclipse/licenses`
+folder of the installed package.
