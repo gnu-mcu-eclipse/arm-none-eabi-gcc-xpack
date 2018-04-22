@@ -1,22 +1,26 @@
-[![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) [![npm](https://img.shields.io/npm/dw/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/) [![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/)
+[![npm (scoped)](https://img.shields.io/npm/v/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc) 
+[![npm](https://img.shields.io/npm/dw/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/) 
+[![npm](https://img.shields.io/npm/dt/@gnu-mcu-eclipse/arm-none-eabi-gcc.svg)](https://www.npmjs.com/package/@gnu-mcu-eclipse/arm-none-eabi-gcc/)
 
 ## The GNU MCU Eclipse ARM Embedded GCC binary xPack
 
-This binary xPack installs the platform specific binaries for the
-[GNU MCU Eclipse ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc)
-toolchain.
+This binary xPack installs the platform specific binaries for
+[GNU MCU Eclipse ARM Embedded GCC](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc).
 
 The source files of the xPack project are publicly available from 
 [GitHub](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack).
 
 ## How to use
 
+This section is intended for developers who plan to use the 
+ARM Embedded GCC toolchain.
+
 ### Prerequisites
 
-On all platforms, all is needed is a recent 
-[`xpm`](https://www.npmjs.com/package/xpm), which is a portable 
-[Node.js](https://nodejs.org) command line application. To install 
-`xpm`, follow the instructions on the 
+The only requirement is a recent 
+`xpm`, which is a portable 
+[Node.js](https://nodejs.org) command line application. To install it,
+follow the instructions from the 
 [`xpm`](https://www.npmjs.com/package/xpm) page.
 
 ### Easy install
@@ -54,7 +58,7 @@ The few xPack source files are available from GitHub:
 $ git clone https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc-xpack.git arm-none-eabi-gcc-xpack.git
 ```
 
-### Toolchain binaries
+### Binary files
 
 The binaries are not stored on the `npmjs.com` server, but are downloaded from  
 the [releases](https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases) 
@@ -69,6 +73,7 @@ and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
 * commit all changes, use a message like `package.json: 7.2.0-1.2` (without `v`)
+* update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v0.1.2_
 * `npm version 7.2.0-1.2`
 * push all changes to GitHub
 * `npm publish`
