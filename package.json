@@ -74,7 +74,6 @@
       "arm-none-eabi-elfedit": "./.content/bin/arm-none-eabi-elfedit",
       "arm-none-eabi-g++": "./.content/bin/arm-none-eabi-g++",
       "arm-none-eabi-gcc": "./.content/bin/arm-none-eabi-gcc",
-      "arm-none-eabi-gcc-7.2.1": "./.content/bin/arm-none-eabi-gcc-7.2.1",
       "arm-none-eabi-gcc-ar": "./.content/bin/arm-none-eabi-gcc-ar",
       "arm-none-eabi-gcc-nm": "./.content/bin/arm-none-eabi-gcc-nm",
       "arm-none-eabi-gcc-ranlib": "./.content/bin/arm-none-eabi-gcc-ranlib",
