@@ -2,6 +2,10 @@
 
 Changes in reverse chronological order.
 
+### v7.2.1-1.1.5 (2018-04-23)
+
+- package.json: remove the gcc-7.2.1 link
+
 ### v7.2.1-1.1.4 (2018-04-22)
 
 - README update
