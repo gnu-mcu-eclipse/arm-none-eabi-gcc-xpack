@@ -31,7 +31,7 @@ from the public `npmjs.com` repository; with `xpm` available, installing
 the latest version of the package is quite easy:
 
 ```console
-$ xpm install @gnu-mcu-eclipse/arm-none-eabi-gcc --global
+$ xpm install --global @gnu-mcu-eclipse/arm-none-eabi-gcc
 ```
 
 Global xPacks are always installed in the user home folder, even on GNU/Linux  
@@ -43,7 +43,7 @@ The GNU MCU Eclipse plug-ins automatically identify binaries installed with
 To remove the installed xPack, the command is similar:
 
 ```console
-$ xpm uninstall @gnu-mcu-eclipse/arm-none-eabi-gcc --global
+$ xpm uninstall --global @gnu-mcu-eclipse/arm-none-eabi-gcc
 ```
 
 (Note: not yet implemented)
