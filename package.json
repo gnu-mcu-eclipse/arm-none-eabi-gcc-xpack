@@ -39,28 +39,28 @@
   "xpack": {
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases/download/v8.2.1-1.2/",
+      "baseUrl": "https://github.com/gnu-mcu-eclipse/arm-none-eabi-gcc/releases/download/v8.2.1-1.3/",
       "skip": 3,
       "platforms": {
         "linux-x86": {
-          "sha256": "b52328f55ac1477c09dfb9132f2763b5c449560bfbfbeed7c0e5071bcd938def",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.2-20190119-1237-centos32.tgz"
+          "sha256": "b4dee573ac6ba0774da4d25a8478707c5ed49b64ebb20ef3ee057a2371b89e4b",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.3-20190202-1016-centos32.tgz"
         },
         "linux-x64": {
-          "sha256": "2e3b920552fcebe65c56013e36e479e225079842f284522a8bedac7eaea19435",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.2-20190119-1237-centos64.tgz"
+          "sha256": "4893a8d1da0e0b656edc11fd3edee7abf13d65220c3b68b5ec0c579e71e86d9b",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.3-20190202-1016-centos64.tgz"
         },
         "darwin-x64": {
-          "sha256": "b6c38190f3e8769eaf3a95668e7664138516e4695df81b252605b94c112680d1",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.2-20190119-1237-macos.tgz"
+          "sha256": "ff5478b6b6d30b9ec5b4e1e4b57f2db08a74814b28a8e732bc2d5cb173093830",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.3-20190202-1016-macos.tgz"
         },
         "win32-x86": {
-          "sha256": "5867fe4874f028b79b22d39a32b8db71b2fae7f2c7087d641404b1b8840ae891",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.2-20190119-1237-win32.zip"
+          "sha256": "44a590d0b5856420d9cd51c4edd83b7d1d699971be99bb998bed773b2873501f",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.3-20190202-1016-win32.zip"
         },
         "win32-x64": {
-          "sha256": "f9c2653801319ec8156aca2fd6fa3462206959f421e672d29488878e9370799e",
-          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.2-20190119-1237-win64.zip"
+          "sha256": "b950137824629411abd8fec2f73f53a764a22c0688955f412b26595d7d961f70",
+          "fileName": "gnu-mcu-eclipse-arm-none-eabi-gcc-8.2.1-1.3-20190202-1016-win64.zip"
         }
       }
     },
