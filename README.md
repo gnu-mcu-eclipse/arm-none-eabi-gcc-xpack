@@ -31,6 +31,7 @@ from the public `npmjs.com` repository; with `xpm` available, installing
 the latest version of the package is quite easy:
 
 ```console
+$ npm update --global xpm
 $ xpm install --global @gnu-mcu-eclipse/arm-none-eabi-gcc
 ```
 
