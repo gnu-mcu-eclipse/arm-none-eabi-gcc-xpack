@@ -35,7 +35,7 @@ $ npm update --global xpm
 $ xpm install --global @gnu-mcu-eclipse/arm-none-eabi-gcc
 ```
 
-Global xPacks are always installed in the user home folder, even on GNU/Linux  
+Global xPacks are always installed in the user home folder, even on GNU/Linux 
 or macOS, and do not require `sudo`.
 
 The GNU MCU Eclipse plug-ins automatically identify binaries installed with
@@ -74,7 +74,7 @@ section of the `gnu-mcu-eclipse/arm-none-eabi-gcc` GitHub project.
 and select the latest release
 * update the `baseUrl:` with the file URLs (including the tag/version)
 * from the blog post, copy the SHA & file names
-* commit all changes, use a message like `package.json: download 7.2.0-1.2` (without `v`)
+* commit all changes, use a message like `package.json: update urls for v7.2.0-1.2 release`
 * update `CHANGELOG.md`; commit with a message like _CHANGELOG: prepare v7.2.0-1.2.1_
 * `npm version 7.2.0-1.2.1`
 * push all changes to GitHub
