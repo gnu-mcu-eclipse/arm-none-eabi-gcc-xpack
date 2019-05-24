@@ -1,6 +1,6 @@
 {
   "name": "@gnu-mcu-eclipse/arm-none-eabi-gcc",
-  "version": "8.2.1-1.6.1",
+  "version": "8.2.1-1.7.1",
   "description": "An xPack which installs the binary files for GNU MCU Eclipse ARM GCC.",
   "main": "",
   "scripts": {
